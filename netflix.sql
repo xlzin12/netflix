@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/05/2026 às 02:40
+-- Tempo de geração: 26/05/2026 às 02:39
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.0.30
 
@@ -43,7 +43,8 @@ CREATE TABLE `filmes` (
 
 INSERT INTO `filmes` (`id`, `nome`, `diretor`, `genero`, `duracao`, `data_lancamento`, `imagem`) VALUES
 (3, 'ttrr222', 'tre', 'masculino', '12:03:00', '0000-00-00', 'uploads/69fce8f50b697.jpeg'),
-(4, 'Ganley o Legado', 'bbzinho', 'Ação', '03:00:00', '0000-00-00', 'uploads/6a14eb12ab2c8.jpg');
+(4, 'Ganley o Legado', 'bbzinho', 'Ação', '03:00:00', '0000-00-00', 'uploads/6a14eb12ab2c8.jpg'),
+(4, 'The Simpsons', 'James Soares', 'Humor ácido', '02:00:00', '0000-00-00', 'uploads/6a14ead4847a0.png');
 
 --
 -- Índices para tabelas despejadas
